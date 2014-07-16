@@ -5,15 +5,17 @@
 
     <body>
 
-    {% include header.html %}
+	<header class="site-header">
+		<div class="wrap">
+			<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+		</div>
+	</header>
 
     <div class="page-content">
       <div class="wrap">
       {{ content }}
       </div>
     </div>
-
-    {% include footer.html %}
 
     </body>
 </html>

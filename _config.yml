@@ -1,9 +1,9 @@
 # Site settings
-title: Adam Phillip-Silver
-email: your-email@domain.com
+title: Adam Phillips-Silver
+email: labonvie07@gmail.com
 description: "A homepage for me"
 baseurl: ""
-url: "http://yourdomain.com"
+url: ""
 
 # Build settings
 markdown: kramdown
