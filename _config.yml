@@ -2,7 +2,7 @@
 title: Adam Phillips-Silver
 email: labonvie07@gmail.com
 description: "A homepage for me"
-baseurl: /adamphillipssilver
+baseurl: ""
 
 # Build settings
 markdown: kramdown
