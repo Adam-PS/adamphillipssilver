@@ -1,8 +1,8 @@
 # Site settings
-title: Adam Phillips-Silver
+title: Adam Phillips-Silver | Technologist
 email: labonvie07@gmail.com
-description: "A homepage for me"
-baseurl: ""
+description: "A site about life, web development, and technology."
+baseurl: "/adamphillipssilver"
 
 # Build settings
 markdown: kramdown

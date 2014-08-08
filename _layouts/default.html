@@ -1,17 +1,27 @@
 <!DOCTYPE html>
-<html>
 
-  {% include head.html %}
+<html lang="en">
 
-    <body>
+    {% include head.html %}
 
-	<header class="site-header">
-		<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+<body>
+<!-- header -->	
 	<header>
-
-    <div class="page-content">
-        {{ content }}
-    </div>
-
-    </body>
+        <object type="image/svg+xml" data="{{ site.baseurl }}/assets/badge.svg" class= "logo" alt="Adam PS logo">
+            <img src="{{ site.baseurl }}/assets/badge.png">
+        </object>
+    	<ul>
+            <li><a href="https://twitter.com/phillipssilver">Twitter</a></li>
+            <li><a href="https://github.com/Adam-PS">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/adamphillipssilver/">LinkedIn</a></li>
+	    </ul>
+	</header>
+<!-- main content -->
+    <Main>
+    {{ content }}
+    </Main>
+<!-- Footer -->
+    {% include footer.html %}
+</body>
+  
 </html>
