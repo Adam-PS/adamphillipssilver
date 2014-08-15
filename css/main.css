@@ -28,8 +28,14 @@ header {
 }
 
 .logo {
-	max-width: 100px;
-	max-height: 100px;
+    background:url(http://www.adamphillipssilver.com/assets/badge.png) no-repeat;
+    width:125px;
+    height:125px;
+}
+
+.svg .logo {
+    background:url(http://www.adamphillipssilver.com/assets/badge.svg) no-repeat;
+    background-size:125px 125px;
 }
 
 .logo-style0{
@@ -40,15 +46,16 @@ header {
 	fill:	#FFF;
 }
 
-header ul {
+ul {
 	font-size: 24px;
 }	
 
-header li {
+li {
 	display: inline-block;
 	width: 80px;
 	padding: 10px;
 }
+
 /*  Main  */
 main {
 	margin: 2em auto;
