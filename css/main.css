@@ -9,8 +9,9 @@ body {
 }
 
 p {
+	padding-bottom: 1em;
 	font-family: Georgia, Times, serif;
-	font-size: 16px;
+	font-size: 18px;
 	text-align: center;
 
 }
