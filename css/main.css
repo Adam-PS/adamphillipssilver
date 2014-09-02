@@ -80,6 +80,7 @@ footer {
 
 /* Posts */
 #post-item {
+	width: auto;
 	text-align: left;
 }
 
