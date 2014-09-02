@@ -78,6 +78,17 @@ footer {
 	min-height: 2em;
 }
 
+/* Posts */
+#post-item {
+	text-align: left;
+}
+
+#post-link {
+	display: inline-block;
+	height: 27px;
+	padding-bottom: .5em;
+}
+
 /*  Progessively enhance at 640px */
 
 @media screen and (min-width: 640px) {
@@ -103,4 +114,9 @@ footer {
 		max-width: 560px;
 		text-align: left;
 	}
+	
+	#post-list {
+		max-width: 560px; 
+	}
+}
 }
