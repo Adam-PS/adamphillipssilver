@@ -1,11 +1,8 @@
 /*  Base  */
 body {
-	margin: 0;
-	height: 100%;
-	vertical-align: top;
 	text-align: center;
 	color: #333;
-	background-color: #fff;
+	background-color: #FFEFD5;
 }
 
 p {
@@ -25,7 +22,6 @@ a {
 /*  Header  */
 header {
 	margin: 2em auto;
-	max-width: 33%;
 }
 
 .logo {
