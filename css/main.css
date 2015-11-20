@@ -109,8 +109,8 @@ footer {
 	}
 	
 	main p {
-		max-width: 560px;
-		text-align: left;
+		max-width: 1024px;
+		text-align: justify;
 	}
 	
 	#post-list {
