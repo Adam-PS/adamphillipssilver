@@ -1,0 +1,67 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #fcfcfc;
+}
+
+.site-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40em;
+}
+
+.main-container {
+  display: flex;  
+  flex-flow: row wrap;
+  max-width: 20em;
+  border: 1px solid #d0d0d0;
+  text-align: center;
+}
+
+.main-container > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.header-container, .main-content {
+  max-width: 20em;
+  font-weight: 700;
+  color: #444;
+}
+
+.header-container {
+  background-color: #fa8072;
+}
+
+.nav-list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-list a {
+  color: #444;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-list a:hover, .nav-list a:focus {
+  color: #222;
+}
+
+.main-content {
+  background-color: #add8e6;
+}
+
+.main-content h1 {
+  font-size: 1.5em;
+}
